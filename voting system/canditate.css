@@ -1,0 +1,20 @@
+body
+{
+    background-image: radial-gradient(circle, #8fff78, #98ff88, #91ffcf, #6df7d0, #00ffd2);
+    background-size: 200% 200%;
+    animation: animatedbg 2s ease infinite;
+}
+@keyframes animatedbg {
+    0%
+    {
+        background-position: 0%;
+    }
+    50%
+    {
+        background-position: 100%;
+    }
+    100%
+    {
+        background-position: 0%;
+    }
+}

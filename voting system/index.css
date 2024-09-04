@@ -1,0 +1,27 @@
+body{
+    background:
+    linear-gradient(to right bottom, #ffc9a7, #ffb77b, #ffffff, #97ea84, #92ff8c);;
+    background-size: 200% 200%;
+    animation: animatedbg 2s ease infinite;
+}
+@keyframes animatedbg{
+    0%{
+background-position: 0%;
+    }
+    50%{
+background-position: 100%;
+    }
+    100%{
+background-position: 0%;
+    }
+}
+img
+{
+    width: 400px;
+    height: 300px;
+}
+a:link{
+    text-decoration: none;
+}
+
+
